@@ -15,8 +15,9 @@ game.Players.PlayerRemoving:Connect(function()
 local saved, notSaved = pcall(function()
 end)
 
+--The part after this is not necessary, just to see if your code works. Basically output.
 if saved then
-   print("Data for Player Saved Successfuly!"
+   print("Data for Player Saved Successfuly!") 
    else
    print("There was an error in saving data.)
    end
